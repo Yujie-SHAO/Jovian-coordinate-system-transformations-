@@ -1,0 +1,28 @@
+*********************************2023/04/14***********************************
+
+***MOD_TIME_TRANSFORMATION.f90*** WAS MODIFIED BY YABING ON 2023/04/14.
+
+1) TERMS AND CONDITIONS FOLLOWED WHEN USING SOFA SOFTWARE. 
+1.1) ADD A STATEMENT that it
+*        (i) uses routines and computations derived by you from
+*        software provided by SOFA under license to you; and
+*        (ii) does not itself constitute software provided by and/or
+*        endorsed by SOFA.
+1.2) Contain descriptions of how the derived work is based upon
+1.3) *****Keep track of leap seconds*****
+1.4) Do not include the prefix "iau" or "sofa" or trivial modifications
+*        thereof such as changes of case.
+1.5) The origin of the SOFA components of your derived work must
+*        not be misrepresented;  you must not claim that you wrote the
+*        original software, nor file a patent application for SOFA
+*        software or algorithms embedded in the SOFA software.
+1.6) These requirements must be reproduced intact in any source
+*        distribution and shall apply to anyone to whom you have
+*        granted a further right to modify the source code of your
+*        derived work.
+********************************         ***********************************
+(1) Some parameters need to be changed in SUBROUTINE WR_DAT ( IY, IM, ID, FD, DELTAT, J )
+whenever a new leap second is announced.
+
+*********************************         ***********************************
+

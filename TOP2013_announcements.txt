@@ -1,0 +1,53 @@
+*********************************2023/04/14***********************************
+
+***MOD_TOP2013.f90*** WAS MODIFIED BY YUJIE WANG ON 2023/04/14.
+
+1) TERMS AND CONDITIONS FOLLOWED WHEN USING MOD_TOP2013. 
+1.1) Clause of non-responsibility 
+            (i) The software has been tested in detail, but can not guarantee 
+            compatibility with all systems, can not guarantee that the 
+            software is completely free of errors.  If incompatibilities 
+            and errors occur, please contact the author.
+            (ii) The author cannot be held responsible for any damages 
+            and risks, direct or indirect, resulting from the use of this software.
+1.2) The origin of the MOD_TOP2013 of your derived work must not be 
+            misrepresented;  you must not claim that you wrote the 
+            original software, nor file a patent application for 
+            MOD_TOP2013 or algorithms embedded in MOD_TOP2013.
+1.3) You must carry prominent notices stating that you modified it, 
+            and giving a relevant date.  The entire risk as to the quality 
+            and performance of your modification is with you. 
+1.4) These requirements must be reproduced intact in any source distribution 
+            and shall apply to anyone to whom you have granted a further 
+            right to modify the source code of your derived work.
+
+
+2) The module MOD_TOP2013 is taken from TOP2013 solutions 
+       (https://ftp.imcce.fr/pub/ephem/planets/top2013/), and refers to Simon et al. (2013) 
+       'New analytical planetary theories VSOP2013 and TOP2013'.  
+Changes have been made as following:
+
+2.1) The original main program was modified into a module, NAMED "MOD_TOP2013", and a subroutine, 
+       NAMED "JUPITERPV(t,r2)", where r2 in the original code represents the motion vector 
+       in heliocentric coordinate system with ICRF, IS CREATED.
+       The subroutine TOP2013 and the subroutine ELLXYZ KEEP INTACT.
+
+2.2) To keep consistency with other modules, the precision has been changed using our 
+       precision module MOD_PRECISION; All the commands were changed from lowercase to uppercase.
+
+2.3) Because we just focus on the motion of Jupiter at a single time,  
+       the selection for four outer planets in Line 21, the creation of a new file in Line 23, 
+       and the given time span in Lines 25-30 of original code were deleted.  Lines 62-65 of 
+       original code are used to compute the motion of four outer planets using the do loop.  
+       It was also modified with a specific body, i.e., Jupiter, corresponding to ip=5.  
+       Line 79 of original code controlling the output to the file was deleted.
+
+2.4) Lines 86-97 of original code are the format of output, including the coordinate systems, 
+       the precision, and different solutions. which is also deleted because we just need 
+       the position and velocity of Jupiter in EQUATORIAL heliocentric coordinate system with ICRF, 
+       as input to other modules.
+
+3) The terms and conditions of the original code, TOP2013 solutions, are not found for some reasons.
+   If there is any infringement, please contact the author.
+
+
