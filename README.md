@@ -44,4 +44,5 @@
 
    **example 2.txt:** output of *EXAPMLE2_JM2JCRS.f90*; makes it easy for users to check.
 
-# ***Contact information: wangyujie@shao.ac.cn***
+
+## ***Contact information: wangyujie@shao.ac.cn***
