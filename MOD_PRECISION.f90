@@ -22,7 +22,7 @@ MODULE MOD_PRECISION
                                       ELONG_DIPOLE_JRM33 = 163.620757D0, &      ! in S3RH coordinate system from JRM33 magnetic field model.
                                       COLAT_DIPOLE_JRM09 = 10.307870D0, & ! The colatitude and longitude of the dipole axis
                                       ELONG_DIPOLE_JRM09 = 163.388276D0, &      ! in S3RH coordinate system from JRM09 magnetic field model.
-                                      COLAT_DIPOLE_VIP4 = 9.215259D0, & ! The colatitude and longitude of the dipole axis
+                                      COLAT_DIPOLE_VIP4 = 9.515259D0, & ! The colatitude and longitude of the dipole axis
                                       ELONG_DIPOLE_VIP4 = 159.225124D0, &      ! in S3RH coordinate system from VIP4 magnetic field model.
                                       DEG2RAD = pi/180.D0, RAD2DEG = 180.D0/pi  ! DEGREE TO RADIAN, RADIAN TO DEGREE
 
