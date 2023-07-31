@@ -3,6 +3,8 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: Wang
     given-names: Yujie
+  - family-names: Wang
+    given-names: Yabing
     orcid: https://orcid.org/0009-0005-4235-0644
 title: Jovian Coordinate System Transformations
 version: v1.0
