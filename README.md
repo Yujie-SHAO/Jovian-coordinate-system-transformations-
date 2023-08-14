@@ -1,6 +1,6 @@
 # Jovian coordinate system transformations 
 
- This file is used to achieve the transformation between all Jovian coordinate system.  The **Universal Coordinated Time (UTC)** and **target vectors** are the input parameters.  DOI:10.5281/zenodo.8104077
+ This file is used to achieve the transformation between all Jovian coordinate system.  The **Universal Coordinated Time (UTC)** and **target vectors** are the input parameters.  DOI:10.5281/zenodo.8201950
 
  ***Before using these code, please pay more attention to announcements!***
 
